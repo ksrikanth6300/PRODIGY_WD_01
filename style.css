@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000; /* Changed to black */
+}
+
+.container {
+    text-align: center;
+}
+
+.wrapper {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #222; /* Dark grey for contrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper p {
+    color: #fff; /* White text for contrast */
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:not(:last-child) {
+    margin-right: 10px;
+}
+
+button:hover,
+button:focus {
+    background-color: #555;
+}
+
+.laps {
+    margin-top: 20px;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: #333; /* Dark grey background for contrast */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.laps p {
+    font-size: 16px;
+    color: #fff; /* White text for contrast */
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #444; /* Slightly lighter grey for lap entries */
+    border-radius: 3px;
+}
